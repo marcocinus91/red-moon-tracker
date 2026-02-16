@@ -7,7 +7,7 @@ const store = useSessionsStore()
 </script>
 
 <template>
-    <div class="max-w-2xl mx-auto -4">
+    <div class="max-w-2xl mx-auto p-4">
         <div class="flex justify-between items-center mb-6">
             <h1 class="text-2xl font-bold">Sessioni</h1>
             <RouterLink to="/session/new">

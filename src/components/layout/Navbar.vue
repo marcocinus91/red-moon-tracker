@@ -11,7 +11,8 @@ const navLinks = [
 
 <template>
     <!-- Mobile header -->
-    <header class="md:hidden bg-linear-to-r from-red-900 to-red-800 text-white shadow-lg">
+    <header
+        class="md:hidden fixed top-0 left-0 right-0 bg-linear-to-r from-red-900 to-red-800 text-white shadow-lg z-50">
         <div class="px-4 py-3 flex items-center justify-center">
             <RouterLink to="/" class="text-lg font-bold tracking-tight flex items-center gap-2">
                 <img src="/luna-rossa.png" alt="Luna Rossa" class="h-20 w-20" />
