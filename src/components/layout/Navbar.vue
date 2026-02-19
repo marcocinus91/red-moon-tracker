@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import { Home, PlusCircle, BarChart3 } from 'lucide-vue-next';
+import { Home, PlusCircle, BarChart3, icons, Box } from 'lucide-vue-next';
 
 const navLinks = [
     { to: '/', label: 'Home', icon: Home },
     { to: '/session/new', label: 'Nuova Sessione', icon: PlusCircle },
     { to: '/stats', label: 'Statistiche', icon: BarChart3 },
+    { to: '/model', label: 'Modello 3D', icon: Box }
 ]
 </script>
 

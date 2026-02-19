@@ -1,4 +1,5 @@
 import HomeView from "@/views/HomeView.vue";
+import ModelView from "@/views/ModelView.vue";
 import NewSessionView from "@/views/NewSessionView.vue";
 import SessionDetailView from "@/views/SessionDetailView.vue";
 import StatsView from "@/views/StatsView.vue";
@@ -9,6 +10,7 @@ const routes = [
   { path: "/session/new", component: NewSessionView },
   { path: "/session/:id", component: SessionDetailView },
   { path: "/stats", component: StatsView },
+  { path: "/model", component: ModelView },
 ];
 
 const router = createRouter({
